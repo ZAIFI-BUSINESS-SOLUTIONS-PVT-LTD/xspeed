@@ -1,0 +1,64 @@
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Databases ─────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── User-uploaded files (private documents) ───────────────────────────────────
+backend/uploads/
+
+# ── Internal planning & AI prompts ────────────────────────────────────────────
+MASTER_TASK.md
+ORCHESTRATOR_PROMPT.md
+PROJECT_REQUIREMENTS.md
+PROJECT_SCOPE.md
+XSPEED_PRODUCT_BRIEF_FROM_PDF.md
+*.pdf
+
+# ── Claude Code settings ──────────────────────────────────────────────────────
+.claude/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+htmlcov/
+.coverage
+
+# ── Node / Next.js ────────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+next-env.d.ts
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
